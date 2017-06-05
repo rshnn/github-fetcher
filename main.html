@@ -1,0 +1,8 @@
+<div>
+    <div ng-show="countdown"> {{countdown}} seconds til autosearch </div>
+
+    <form name="search user" ng-submit="searchUsers(username)">
+      <input type="search" required="" name="username" placeholder="Username" ng-model="username" />
+      <input type="submit" value="Search" />
+    </form>
+</div>
